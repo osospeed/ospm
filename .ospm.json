@@ -1,0 +1,243 @@
+{
+	"pkgs": [
+		{"name":"fzf","cat":"sh", "url": "https://github.com/junegunn/fzf.git", "type": "git", "install": "./install --all"}
+		,{"name":"pathpicker","cat":"sh", "url": "https://github.com/facebook/PathPicker", "type": "git"}
+		,{"name":"zplug","cat":"sh", "url": "https://github.com/zplug/zplug", "type": "git"}
+		,{"name":"pipework","cat":"net", "url": "https://github.com/jpetazzo/pipework", "type": "git"}
+		,{"name":"metasploit","cat":"net", "url": "https://github.com/rapid7/metasploit-framework", "type": "git"}
+		,{"name":"010Tools","cat":"bin", "url":"https://github.com/matrosov/010Tools.git", "type":"git"}
+		,{"name":"010Tools","cat":"misc", "url":"https://github.com/matrosov/010Tools.git", "type":"git"}
+		,{"name":"adbHelper","cat":"ida", "url":"https://github.com/techbliss/ADB_Helper_QT_Super_version.git", "type":"git"}
+		,{"name":"afl-cov","cat":"afl", "url":"https://github.com/mrash/afl-cov.git", "type":"git"}
+		,{"name":"afl-utils","cat":"bin","cat":"afl", "url":"https://github.com/rc0r/afl-utils.git", "type":"git"}
+		,{"name":"android-scripts","cat":"ida", "url":"https://github.com/strazzere/android-scripts.git", "type":"git"}
+		,{"name":"backtrace","cat":"ida", "url":"https://bitbucket.org/Alexander_Hanel/backtrace.git", "type":"git"}
+		,{"name":"bankswitch","cat":"ida", "url":"https://github.com/patois/bankswitch.git", "type":"git"}
+		,{"name":"bap-binaries","cat":"bin", "url":"https://github.com/neuromancer/bap-binaries.git", "type":"git"}
+		,{"name":"bash-it","url":"https://github.com/Bash-it/bash-it","cat":"sh", "type":"git"}
+		,{"name":"bignum-dumper","cat":"ida", "url":"https://github.com/nihilus/bignum-dumper.git", "type":"git"}
+		,{"name":"binaryninja-python","cat":"bin", "url":"https://github.com/Vector35/binaryninja-python.git", "type":"git"}
+		,{"name":"binSourcerer","cat":"ida", "url":"https://github.com/BinSigma/BinSourcerer.git", "type":"git"}
+		,{"name":"bluto","cat":"net", "url":"https://github.com/RandomStorm/Bluto.git", "type":"git"}
+		,{"name":"burpy","cat":"web", "url":"https://github.com/debasishm89/burpy.git", "type":"git"}
+		,{"name":"checksec","cat":"bin", "url":"https://github.com/kholia/checksec.git", "type":"git"}
+		,{"name":"checksec.sh","cat":"bin", "url":"https://github.com/slimm609/checksec.sh.git", "type":"git"}
+		,{"name":"classinformer","cat":"ida", "url":"https://github.com/native-api/classinformer.git", "type":"git"}
+		,{"name":"codetective","cat":"crypt", "url":"https://github.com/blackthorne/Codetective.git", "type":"git"}
+		,{"name":"commix","cat":"web", "url":"https://github.com/stasinopoulos/commix.git", "type":"git"}
+		,{"name":"cospare","cat":"ida", "url":"https://bitbucket.org/Alexander_Hanel/cospare.git", "type":"git"}
+		,{"name":"cribdrag","cat":"crypt", "url":"https://github.com/SpiderLabs/cribdrag.git", "type":"git"}
+		,{"name":"dalvik-header-plugin","cat":"ida", "url":"https://github.com/strazzere/dalvik-header-plugin.git", "type":"git"}
+		,{"name":"darmbi","cat":"bin", "url":"https://github.com/jbremer/darmbi.git", "type":"git"}
+		,{"name":"dataxrefcounter","cat":"ida", "url":"https://github.com/onethawt/idapyscripts.git", "type":"git"}
+		,{"name":"decompiler","cat":"ida", "url":"https://github.com/EiNSTeiN-/decompiler.git", "type":"git"}
+		,{"name":"DHCPig","cat":"net", "url":"https://github.com/kamorin/DHCPig.git", "type":"git"}
+		,{"name":"diaphora","cat":"ida", "url":"https://github.com/joxeankoret/diaphora.git", "type":"git"}
+		,{"name":"die","cat":"ida", "url":"https://github.com/ynvb/DIE", "type":"git"}
+		,{"name":"dircolors-solarized","cat":"sh", "url":"https://github.com/seebi/dircolors-solarized.git", "type":"git"}
+		,{"name":"dism-this","cat":"ida", "url":"https://bitbucket.org/Alexander_Hanel/dism-this.git", "type":"git"}
+		,{"name":"dnsenum","cat":"net", "url":"https://github.com/fwaeytens/dnsenum.git", "type":"git"}
+		,{"name":"dnsrecon","cat":"net", "url":"https://github.com/darkoperator/dnsrecon.git", "type":"git"}
+		,{"name":"dnstwist","cat":"net", "url":"https://github.com/elceef/dnstwist.git", "type":"git"}
+		,{"name":"dot-iptables","cat":"net", "url":"https://github.com/larsks/dot-iptables.git", "type":"git"}
+		,{"name":"dotfiles","cat":"sh", "url":"https://github.com/RAttab/dotfiles.git", "type":"git"}
+		,{"name":"dotiptables","cat":"net", "url":"https://github.com/larsks/dot-iptables.git", "type":"git"}
+		,{"name":"drGadget","cat":"ida", "url":"https://github.com/patois/dr.rer.oec.gadget.git", "type":"git"}
+		,{"name":"easy-rsa","cat":"crypt", "url":"https://github.com/OpenVPN/easy-rsa.git", "type":"git"}
+		,{"name":"ElectronicColoringBook","cat":"crypt", "url":"https://github.com/doegox/ElectronicColoringBook.git", "type":"git"}
+		,{"name":"etherannotate_ida","cat":"ida", "url":"https://github.com/inositle/etherannotate_ida.git", "type":"git"}
+		,{"name":"exploitable","cat":"gdb", "url":"https://github.com/jfoote/exploitable.git", "type":"git"}
+		,{"name":"extractMachO","cat":"ida", "url":"https://github.com/gdbinit/ExtractMachO.git", "type":"git"}
+		,{"name":"fcatalog_client","cat":"ida", "url":"https://github.com/xorpd/fcatalog_client.git", "type":"git"}
+		,{"name":"fcatalog_server","cat":"ida", "url":"https://github.com/xorpd/fcatalog_server.git", "type":"git"}
+		,{"name":"fentanyl","cat":"ida", "url":"https://github.com/isislab/Fentanyl.git", "type":"git"}
+		,{"name":"fermatsFactorizer","cat":"crypt", "url":"https://github.com/juanjohn/rsa_tool.git", "type":"git"}
+		,{"name":"FileInsight-plugins","cat":"misc", "url":"https://github.com/nmantani/FileInsight-plugins.git", "type":"git"}
+		,{"name":"fimap","cat":"web", "url":"https://tha-imax.de/git/root/fimap.git", "type":"git"}
+		,{"name":"fixenv","cat":"bin", "url":"https://github.com/hellman/fixenv.git", "type":"git"}
+		,{"name":"fixobjc","cat":"ida", "url":"https://github.com/gdbinit/fixobjc.git", "type":"git"}
+		,{"name":"FlameGraph","cat":"bin", "url":"https://github.com/brendangregg/FlameGraph.git", "type":"git"}
+		,{"name":"flare-ida","cat":"ida", "url":"https://github.com/fireeye/flare-ida.git", "type":"git"}
+		,{"name":"fREedom","cat":"bin", "url":"https://github.com/cseagle/fREedom.git", "type":"git"}
+		,{"name":"func-renamer","cat":"ida", "url":"https://bitbucket.org/Alexander_Hanel/func-renamer.git", "type":"git"}
+		,{"name":"funcap","cat":"ida", "url":"https://github.com/deresz/funcap.git", "type":"git"}
+		,{"name":"fuzzdb","cat":"misc", "url":"https://github.com/fuzzdb-project/fuzzdb.git", "type":"git"}
+		,{"name":"fwrapper","cat":"ida", "url":"https://bitbucket.org/Alexander_Hanel/fwrapper.git", "type":"git"}
+		,{"name":"FxPnH","cat":"web", "url":"https://github.com/mozmark/ringleader.git", "type":"git"}
+		,{"name":"fzf-fs", "url":"https://github.com/D630/fzf-fs","cat":"sh", "type":"git"}
+		,{"name":"gateway-finder","cat":"net", "url":"https://59dfeb77ab88bfc7cdcecacb52b1036cb9267e8e@github.com/vdun/zGit.git", "type":"git"}
+		,{"name":"gdb-dashboard","cat":"gdb", "url":"https://github.com/cyrus-and/gdb-dashboard.git", "type":"git"}
+		,{"name":"GDB-Python-Utils","cat":"gdb", "url":"https://github.com/crossbowerbt/GDB-Python-Utils.git", "type":"git"}
+		,{"name":"Gdbinit","cat":"gdb", "url":"https://github.com/gdbinit/Gdbinit.git", "type":"git"}
+		,{"name":"gef", "url":"https://github.com/hugsy/gef","cat":"gdb", "type":"git"}
+		,{"name":"gg","cat":"misc", "url":"https://github.com/qw3rtman/gg.git", "type":"git"}
+		,{"name":"graphSlick","cat":"ida", "url":"https://github.com/lallousx86/GraphSlick.git", "type":"git"}
+		,{"name":"grml","cat":"sh", "url":"https://github.com/grml/grml-etc-core.git", "type":"git"}
+		,{"name":"hashID","cat":"crypt", "url":"https://github.com/psypanda/hashID.git", "type":"git"}
+		,{"name":"hashtag","cat":"crypt", "url":"https://github.com/SmeegeSec/HashTag.git", "type":"git"}
+		,{"name":"hexrays-python","cat":"ida", "url":"https://github.com/EiNSTeiN-/hexrays-python", "type":"git"}
+		,{"name":"hexrays-python-plugins", "url":"https://github.com/EiNSTeiN-/hexrays-python-plugins","cat":"ida", "type":"git"}
+		,{"name":"hexrays_tools","cat":"ida", "url":"https://github.com/nihilus/hexrays_tools.git", "type":"git"}
+		,{"name":"hexRaysCodeXplorer","cat":"ida", "url":"https://github.com/REhints/HexRaysCodeXplorer.git", "type":"git"}
+		,{"name":"hhighlighter","cat":"sh", "url":"https://github.com/paoloantinori/hhighlighter.git", "type":"git"}
+		,{"name":"HookExplorer","cat":"bin", "url":"https://github.com/dzzie/HookExplorer.git", "type":"git"}
+		,{"name":"HopperScripts","cat":"hopper", "url":"https://github.com/phracker/HopperScripts.git", "type":"git"}
+		,{"name":"HostileSubBruteforcer","cat":"net", "url":"https://github.com/nahamsec/HostileSubBruteforcer.git", "type":"git"}
+		,{"name":"hrdev","cat":"ida", "url":"https://github.com/ax330d/hrdev.git", "type":"git"}
+		,{"name":"ibal","cat":"ida", "url":"https://github.com/digitalbond/IBAL.git", "type":"git"}
+		,{"name":"ida-compare","cat":"ida", "url":"https://github.com/dzzie/IDACompare.git", "type":"git"}
+		,{"name":"ida-csharp","cat":"ida", "url":"https://github.com/Fabi/IDACSharp.git", "type":"git"}
+		,{"name":"ida-decompiler","cat":"ida","cat":"ida", "url":"https://github.com/EiNSTeiN-/ida-decompiler.git", "type":"git"}
+		,{"name":"ida-dos","cat":"ida", "url":"https://github.com/wjp/idados.git", "type":"git"}
+		,{"name":"ida-efitools","cat":"ida", "url":"https://github.com/danse-macabre/ida-efitools.git", "type":"git"}
+		,{"name":"ida-enhancements","cat":"ida", "url":"https://github.com/eschweiler/IDAEnhancements.git", "type":"git"}
+		,{"name":"ida-frida","cat":"ida", "url":"https://github.com/techbliss/Frida_For_Ida_Pro.git", "type":"git"}
+		,{"name":"ida-function-tagger","cat":"ida", "url":"https://github.com/alessandrogario/IDA-Function-Tagger.git", "type":"git"}
+		,{"name":"ida-ipython","cat":"ida", "url":"https://github.com/james91b/ida_ipython.git", "type":"git"}
+		,{"name":"ida-link","cat":"ida", "url":"https://github.com/zardus/idalink", "type":"git"}
+		,{"name":"ida-patcher","cat":"ida", "url":"https://github.com/iphelix/ida-patcher", "type":"git"}
+		,{"name":"ida-patchwork","cat":"ida", "url":"https://bitbucket.org/daniel_plohmann/idapatchwork.git", "type":"git"}
+		,{"name":"ida-pomidor","cat":"ida", "url":"https://github.com/iphelix/ida-pomidor.git", "type":"git"}
+		,{"name":"ida-ref","cat":"ida", "url":"https://github.com/nologic/idaref.git", "type":"git"}
+		,{"name":"ida-rest","cat":"ida", "url":"https://github.com/dshikashio/idarest.git", "type":"git"}
+		,{"name":"ida-simulator","cat":"ida", "url":"https://github.com/nihilus/IDASimulator.git", "type":"git"}
+		,{"name":"ida-splode","cat":"ida", "url":"https://github.com/zachriggle/ida-splode.git", "type":"git"}
+		,{"name":"ida-sploiter","cat":"ida", "url":"https://github.com/iphelix/ida-sploiter.git", "type":"git"}
+		,{"name":"ida-styler","cat":"ida", "url":"https://github.com/techbliss/IDA-Styler.git", "type":"git"}
+		,{"name":"ida-sync-plugin","cat":"ida", "url":"https://bitbucket.org/obaby/ida-sync-plugin.git", "type":"git"}
+		,{"name":"ida-synergy","cat":"ida", "url":"https://github.com/CubicaLabs/IDASynergy.git", "type":"git"}
+		,{"name":"ida-ubiGraph","cat":"ida", "url":"https://github.com/Cr4sh/IDA-UbiGraph.git", "type":"git"}
+		,{"name":"idb2pat","cat":"ida", "url":"https://github.com/alexander-pick/idb2pat.git", "type":"git"}
+		,{"name":"idc-scripts","cat":"ida", "url":"https://github.com/gdbinit/idc-scripts.git", "type":"git"}
+		,{"name":"imh","cat":"ida", "url":"https://github.com/Z-Rantom/IMH.git", "type":"git"}
+		,{"name":"intrigue-core","cat":"web", "url":"https://github.com/intrigueio/intrigue-core.git", "type":"git"}
+		,{"name":"jsgifkeylogger", "url":"https://github.com/wopot/jsgifkeylogger","cat":"web", "type":"git"}
+		,{"name":"jsprime","cat":"web", "url":"https://github.com/dpnishant/jsprime.git", "type":"git"}
+		,{"name":"jsunpck","cat":"web", "url":"https://github.com/jbremer/jsunpck.git", "type":"git"}
+		,{"name":"kam1n0","cat":"ida", "url":"https://github.com/McGill-DMaS/Kam1n0-Plugin-IDA-Pro.git", "type":"git"}
+		,{"name":"KeyFactor","cat":"crypt", "url":"https://github.com/stephenfewer/KeyFactor.git", "type":"git"}
+		,{"name":"known_hosts_bruteforcer","cat":"net", "url":"https://github.com/xme/known_hosts_bruteforcer.git", "type":"git"}
+		,{"name":"krypton","url":"https://github.com/nihilus/krypton","cat":"ida", "type":"git"}
+		,{"name":"labeless","cat":"ida", "url":"https://github.com/a1ext/labeless.git", "type":"git"}
+		,{"name":"LANs.py","cat":"net", "url":"https://github.com/DanMcInerney/LANs.py.git", "type":"git"}
+		,{"name":"libheap","cat":"gdb", "url":"https://github.com/trolldbois/libheap.git", "type":"git"}
+		,{"name":"libnum","cat":"crypt", "url":"https://github.com/hellman/libnum.git", "type":"git"}
+		,{"name":"liffy", "url":"https://github.com/oaass/liffy","cat":"web", "type":"git"}
+		,{"name":"lldbinit","cat":"bin", "url":"https://github.com/deroko/lldbinit.git", "type":"git"}
+		,{"name":"LoadDll","cat":"bin", "url":"https://github.com/edix/LoadDll", "type":"git"}
+		,{"name":"LS_COLORS","cat":"sh", "url":"https://github.com/trapd00r/LS_COLORS.git", "type":"git"}
+		,{"name":"madNES","cat":"ida", "url":"https://github.com/patois/MadNES.git", "type":"git"}
+		,{"name":"milf","cat":"ida", "url":"https://github.com/carlosgprado/MILF.git", "type":"git"}
+		,{"name":"multiafl","cat":"afl", "url":"https://github.com/zardus/multiafl.git", "type":"git"}
+		,{"name":"mynav","cat":"ida", "url":"https://github.com/joxeankoret/mynav.git", "type":"git"}
+		,{"name":"myrepos","cat":"misc", "url":"https://github.com/joeyh/myrepos.git", "type":"git"}
+		,{"name":"nesdbg","cat":"ida", "url":"https://github.com/patois/nesdbg.git", "type":"git"}
+		,{"name":"nesldr","cat":"ida", "url":"https://github.com/patois/nesldr.git", "type":"git"}
+		,{"name":"NetworkTools","cat":"net", "url":"https://github.com/trolldbois/NetworkTools.git", "type":"git"}
+		,{"name":"nikto","cat":"web", "url":"https://github.com/sullo/nikto.git", "install":"", "type":"git"}
+		,{"name":"ocean","cat":"bin", "url":"https://github.com/neuromancer/ocean.git", "type":"git"}
+		,{"name":"OllyCapstone","cat":"bin", "url":"https://github.com/quangnh89/OllyCapstone.git", "type":"git"}
+		,{"name":"ops","cat":"sh", "url":"https://github.com/pearl-hub/ops.git", "type":"git"}
+		,{"name":"optimice","cat":"ida", "url":"https://github.com/nihilus/optimice.git", "type":"git"}
+		,{"name":"osueta","cat":"xploit", "url":"https://github.com/c0r3dump3d/osueta.git", "type":"git"}
+		,{"name":"PadBuster","cat":"crypt", "url":"https://github.com/GDSSecurity/PadBuster.git", "type":"git"}
+		,{"name":"Parsero","cat":"web", "url":"https://github.com/behindthefirewalls/Parsero.git", "type":"git"}
+		,{"name":"patator","cat":"web", "url":"https://github.com/lanjelot/patator.git", "type":"git"}
+		,{"name":"peda","cat":"gdb", "url":"https://github.com/longld/peda.git", "type":"git"}
+		,{"name":"php-code-deobfuscator","cat":"web", "url":"https://github.com/technopagan/php-code-deobfuscator.git", "type":"git"}
+		,{"name":"pinpy","cat":"pin", "url":"https://github.com/neuroo/pinpy.git", "type":"git"}
+		,{"name":"pint","cat":"pin", "url":"https://github.com/hexgolems/pint.git", "type":"git"}
+		,{"name":"pintool-makefile","cat":"pin", "url":"https://github.com/jbremer/pintool-makefile.git", "type":"git"}
+		,{"name":"plus22","cat":"ida", "url":"https://github.com/v0s/plus22.git", "type":"git"}
+		,{"name":"plympton","cat":"ida", "url":"https://github.com/rogwfu/plympton.git", "type":"git"}
+		,{"name":"poracle","cat":"crypt", "url":"https://github.com/iagox86/poracle.git", "type":"git"}
+		,{"name":"powerline-shell", "url":"https://github.com/milkbikis/powerline-shell", "type":"git"}
+		,{"name":"ProReversing","cat":"bin", "url":"https://github.com/eschweiler/ProReversing.git", "type":"git"}
+		,{"name":"pwndbg","cat":"gdb", "url":"https://github.com/zachriggle/pwndbg.git", "type":"git"}
+		,{"name":"pyasm2","cat":"bin", "url":"https://github.com/jbremer/pyasm2.git", "type":"git"}
+		,{"name":"pyemu","cat":"ida", "url":"https://github.com/codypierce/pyemu.git", "type":"git"}
+		,{"name":"pypadbuster","cat":"crypt","cat":"crypt", "url":"https://github.com/escbar/pypadbuster.git", "type":"git"}
+		,{"name":"PyPMF","cat":"bin", "url":"https://github.com/feliam/PyPMF.git", "type":"git"}
+		,{"name":"pysymemu","cat":"bin", "url":"https://github.com/feliam/pysymemu.git", "type":"git"}
+		,{"name":"qb-sync","cat":"ida", "url":"https://github.com/quarkslab/qb-sync.git", "type":"git"}
+		,{"name":"radare2ida","cat":"bin", "url":"https://github.com/radare/radare2ida.git", "type":"git"}
+		,{"name":"ranger","cat":"sh", "url":"https://github.com/hut/ranger.git", "type":"git"}
+		,{"name":"readb4write","cat":"pin", "url":"https://github.com/jbremer/readb4write.git", "type":"git"}
+		,{"name":"readpe","cat":"bin", "url":"https://github.com/jbremer/readpe.git", "type":"git"}
+		,{"name":"recomp","cat":"ida", "url":"https://github.com/bastkerg/Recomp.git", "type":"git"}
+		,{"name":"recon-ng","cat":"web", "url":"https://bitbucket.org/LaNMaSteR53/recon-ng.git", "type":"git"}
+		,{"name":"reef","cat":"ida", "url":"https://github.com/darx0r/Reef.git", "type":"git"}
+		,{"name":"reiat","cat":"ida", "url":"https://bitbucket.org/Alexander_Hanel/reiat.git", "type":"git"}
+		,{"name":"reProgram","cat":"ida", "url":"https://github.com/jkoppel/REProgram.git", "type":"git"}
+		,{"name":"retire.js","cat":"web", "url":"https://github.com/bekk/retire.js.git", "type":"git"}
+		,{"name":"reTypedef","cat":"ida", "url":"https://github.com/zyantific/REtypedef.git", "type":"git"}
+		,{"name":"reverse","cat":"bin", "url":"https://github.com/joelpx/reverse.git", "type":"git"}
+		,{"name":"rophopper","cat":"hopper", "url":"https://github.com/wjlandryiii/rophopper.git", "type":"git"}
+		,{"name":"rsatool","cat":"crypt", "url":"https://github.com/ius/rsatool.git", "type":"git"}
+		,{"name":"runtime-tracer","cat":"ida", "url":"https://github.com/neuroo/runtime-tracer.git", "type":"git"}
+		,{"name":"sark","cat":"ida", "url":"https://github.com/tmr232/Sark", "type":"git"}
+		,{"name":"scratchABit","cat":"ida", "url":"https://github.com/pfalcon/ScratchABit.git", "type":"git"}
+		,{"name":"scripts-devttys0","cat":"ida", "url":"https://github.com/devttys0/ida.git", "type":"git"}
+		,{"name":"scripts-dzzie","cat":"ida", "url":"https://github.com/dzzie/RE_Plugins.git", "type":"git"}
+		,{"name":"scripts-gdbinit","cat":"ida", "url":"https://github.com/gdbinit/idc-scripts.git", "type":"git"}
+		,{"name":"scripts-moloch","cat":"ida", "url":"https://github.com/moloch--/IDA-Python.git", "type":"git"}
+		,{"name":"scripts-n-tools","cat":"misc", "url":"https://github.com/getdual/scripts-n-tools.git", "type":"git"}
+		,{"name":"scripts-nihilus","cat":"ida", "url":"https://github.com/nihilus/IDA-IDC-Scripts", "type":"git"}
+		,{"name":"scripts-patois","cat":"ida", "url":"https://github.com/patois/idaplugins.git", "type":"git"}
+		,{"name":"scripts-zTrix","cat":"ida", "url":"https://github.com/zTrix/idascript.git", "type":"git"}
+		,{"name":"scripts_binjo","cat":"misc", "url":"https://github.com/binjo/utils.git", "type":"git"}
+		,{"name":"scripts_didierStevensSuite","cat":"misc", "url":"https://github.com/DidierStevens/DidierStevensSuite.git", "type":"git"}
+		,{"name":"scripts_getdual","cat":"misc", "url":"https://github.com/getdual/scripts-n-tools.git", "type":"git"}
+		,{"name":"Scythe","cat":"web", "url":"https://github.com/ChrisJohnRiley/Scythe.git", "type":"git"}
+		,{"name":"SecLists","cat":"misc", "url":"https://github.com/danielmiessler/SecLists.git", "type":"git"}
+		,{"name":"serman","cat":"sys", "url":"https://github.com/baoboa/serman.git", "type":"git"}
+		,{"name":"shellcode_tools","cat":"bin", "url":"https://github.com/MarioVilas/shellcode_tools.git", "type":"git"}
+		,{"name":"sial.org-scripts","cat":"misc", "url":"https://github.com/thrig/sial.org-scripts", "type":"git"}
+		,{"name":"sibyl","cat":"ida", "url":"https://github.com/cea-sec/Sibyl", "type":"git"}
+		,{"name":"Simple-PHP-De-Obfuscator","cat":"web", "url":"https://github.com/himanshudas/Simple-PHP-De-Obfuscator.git", "type":"git"}
+		,{"name":"simplifire.idascope","cat":"ida", "url":"https://bitbucket.org/daniel_plohmann/simplifire.idascope.git", "type":"git"}
+		,{"name":"snippetDetector","cat":"ida", "url":"https://github.com/zaironne/SnippetDetector.git", "type":"git"}
+		,{"name":"sqlmap","cat":"web", "url":"https://github.com/sqlmapproject/sqlmap.git", "type":"git"}
+		,{"name":"sqlnuke","cat":"web", "url":"https://github.com/nuke99/sqlnuke.git", "type":"git"}
+		,{"name":"sshrc","cat":"sh", "url":"https://github.com/Russell91/sshrc.git", "type":"git"}
+		,{"name":"sslyze","cat":"net", "url":"https://github.com/iSECPartners/sslyze.git", "type":"git"}
+		,{"name":"stingray","cat":"ida", "url":"https://github.com/darx0r/Stingray.git", "type":"git"}
+		,{"name":"subbrute","cat":"net", "url":"https://github.com/TheRook/subbrute.git", "type":"git"}
+		,{"name":"sublime-packages", "cat":"txt", "url":"https://github.com/sublimehq/Packages.git", "type":"git"}
+		,{"name":"testenv","cat":"web", "url":"https://github.com/sqlmapproject/testenv.git", "type":"git"}
+		,{"name":"tmux-powerline","cat":"sh", "url":"https://github.com/erikw/tmux-powerline.git", "type":"git"}
+		,{"name":"toolbag","cat":"ida", "url":"https://github.com/aaronportnoy/toolbag.git", "type":"git"}
+		,{"name":"tpm","cat":"sh", "url":"https://github.com/tmux-plugins/tpm", "type":"git"}
+		,{"name":"tsa4ida","cat":"ida", "url":"https://bitbucket.org/Alexander_Hanel/tsa4ida.git", "type":"git"}
+		,{"name":"undefinder","cat":"ida", "url":"https://bitbucket.org/Alexander_Hanel/undefinder.git", "type":"git"}
+		,{"name":"utils","cat":"bin", "url":"https://github.com/binjo/utils.git", "type":"git"}
+		,{"name":"villoc","cat":"bin", "url":"https://github.com/wapiflapi/villoc.git", "type":"git"}
+		,{"name":"virusbattle-ida-plugin","cat":"ida", "url":"https://github.com/axmat/virusbattle-ida-plugin.git", "type":"git"}
+		,{"name":"voltron","cat":"gdb", "url":"https://github.com/snarez/voltron.git", "type":"git"}
+		,{"name":"vtbl-ida-pro-plugin","cat":"ida", "url":"https://github.com/nektra/vtbl-ida-pro-plugin.git", "type":"git"}
+		,{"name":"vtrace_scripts", "url":"https://github.com/pdasilva/vtrace_scripts","cat":"ida", "type":"git"}
+		,{"name":"WCF-Binary-SOAP-Plug-In","cat":"web", "url":"https://github.com/GDSSecurity/WCF-Binary-SOAP-Plug-In.git", "type":"git"}
+		,{"name":"win32LST","cat":"ida", "url":"https://github.com/binrapt/ida.git", "type":"git"}
+		,{"name":"winIoCtlDecoder","cat":"ida", "url":"https://github.com/tandasat/WinIoCtlDecoder.git", "type":"git"}
+		,{"name":"workspace","cat":"sh", "url":"https://github.com/matadon/workspace.git", "type":"git"}
+		,{"name":"zynamics-bincrowd-plugin-ida","cat":"bin", "url":"https://github.com/zynamics/bincrowd-plugin-ida.git", "type":"git"}
+		,{"name":"zynamics-bochs-python-instrumentation","cat":"bin", "url":"https://github.com/zynamics/bochs-python-instrumentation.git", "type":"git"}
+		,{"name":"zynamics-ida2sql-plugin-ida","cat":"bin", "url":"https://github.com/zynamics/ida2sql-plugin-ida.git", "type":"git"}
+		,{"name":"zynamics-msdn-crawler","cat":"bin", "url":"https://github.com/zynamics/msdn-crawler.git", "type":"git"}
+		,{"name":"zynamics-msdn-plugin-ida","cat":"bin", "url":"https://github.com/zynamics/msdn-plugin-ida.git", "type":"git"}
+		,{"name":"zynamics-objc-helper-plugin-ida","cat":"bin", "url":"https://github.com/zynamics/objc-helper-plugin-ida.git", "type":"git"}
+		,{"name":"zynamics-pin-tools","cat":"bin", "url":"https://github.com/zynamics/pin-tools.git", "type":"git"}
+		,{"name":"zynamics-rtti-helper-scripts","cat":"bin", "url":"https://github.com/zynamics/rtti-helper-scripts.git", "type":"git"}
+	]
+,
+"conf":
+{
+	"path":"${HOME}/.ospm/"
+	,"cmd_albani_i":"git clone"
+	,"cmd_albani_u":"git pull"
+	,"cmd_git_i":"git clone --depth 1"
+	,"cmd_git_u":"git fetch --depth 1; git reset --hard origin/master; git pull"
+	,"cmd_svn_i":"svn co"
+	,"cmd_svn_u":"svn update"
+}
+}
