@@ -1,0 +1,62 @@
+#!/bin/bash
+# set -x
+# - TODO
+	# - albani
+	# - category, symlink
+	# - http
+CONF="${HOME}/.ospm.json"
+# PTH=$(cat ${CONF} | jq -r '.conf.path')
+PTH="${HOME}/.ospm/"
+CBLU="\e[94m"
+CRST="\e[0m"
+CCYN="\e[36m"
+PTHAPPS="${HOME}/.ospm/_repo/"
+OPT="$1"
+PKG="$2"
+
+[ ! -f ${CONF} ] && OPT='update'
+[ ! -f ${PTHAPPS} ] && mkdir -p ${PTHAPPS}
+
+case "${OPT}" in
+	# ______________________________________________[install]
+	i*)
+		[[ $PKG == '' ]] && { echo "what?"; exit; }
+		INSTALL=$(cat ${CONF} | jq -r '.pkgs[] | select(.name == "'$PKG'") | .install')
+		NAME=$(cat ${CONF} | jq -r '.pkgs[] | select(.name == "'$PKG'") | .name')
+		TYP=$(cat ${CONF} | jq -r '.pkgs[] | select(.name == "'$PKG'") | .type')
+		URL=$(cat ${CONF} | jq -r '.pkgs[] | select(.name == "'$PKG'") | .url')
+		CMD=$(cat ${CONF} | jq -r '.conf.cmd_'$TYP'_i')
+		echo -e "${CBLU}- Install ${CCYN}${NAME}${CRST}"
+		cd ${PTHAPPS}; eval $CMD $URL $NAME;
+		
+		[[ $INSTALL != "null" ]] && { cd ${NAME}; $INSTALL; }
+	;;
+	# ______________________________________________[list]
+	l*)
+		cat ${CONF} | jq -r '.pkgs[] | .name' | sort
+	;;
+	# ______________________________________________[remove]
+	r*)
+		rm -r ${PTHAPPS}${PKG} && echo -e "${CBLU}- Removed ${CCYN}${PKG}${CRST}"
+	;;
+	# ______________________________________________[update]
+	upd*)
+		svn export --force "https://github.com/osospeed/ospm/trunk/.ospm.json" ${CONF} 1>/dev/null && echo -e "${CBLU}- Updated"
+	;;
+	# ______________________________________________[upgrade]
+	upg*)
+		[[ $PKG == '' ]] && {
+			ls -1 $PTHAPPS | xargs -Ixxx bash -c 'echo -e "${CBLU}- Update ${CCYN}xxx${CRST}"; ospm u xxx'
+			exit
+		}
+		INSTALL=$(cat ${CONF} | jq -r '.pkgs[] | select(.name == "'$PKG'") | .install')
+		NAME=$(cat ${CONF} | jq -r '.pkgs[] | select(.name == "'$PKG'") | .name')
+		TYP=$(cat ${CONF} | jq -r '.pkgs[] | select(.name == "'$PKG'") | .type')
+		CMD=$(cat ${CONF} | jq -r '.conf.cmd_'$TYP'_u')
+		cd ${PTHAPPS}${NAME}; eval $CMD;
+		[[ $INSTALL != "null" ]] && { $INSTALL; }
+	;;
+	*)
+		echo "ospm [install | list | remove | update | upgrade]"
+	;;
+esac
