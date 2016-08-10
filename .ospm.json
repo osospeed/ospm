@@ -58,6 +58,7 @@
 		,{"name":"fixobjc","cat":"ida", "url":"https://github.com/gdbinit/fixobjc.git", "type":"git"}
 		,{"name":"FlameGraph","cat":"bin", "url":"https://github.com/brendangregg/FlameGraph.git", "type":"git"}
 		,{"name":"flare-ida","cat":"ida", "url":"https://github.com/fireeye/flare-ida.git", "type":"git"}
+		,{"name":"fridump","cat":"bin", "url":"https://github.com/Nightbringer21/fridump", "type":"git"}
 		,{"name":"fREedom","cat":"bin", "url":"https://github.com/cseagle/fREedom.git", "type":"git"}
 		,{"name":"func-renamer","cat":"ida", "url":"https://bitbucket.org/Alexander_Hanel/func-renamer.git", "type":"git"}
 		,{"name":"funcap","cat":"ida", "url":"https://github.com/deresz/funcap.git", "type":"git"}
